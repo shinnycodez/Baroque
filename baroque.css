@@ -1,0 +1,303 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #navbar {
+        position: absolute;
+        top: 0px;
+        position: sticky;
+        width: 100%;
+        /* background-color: red; */
+        height: 86px;
+        z-index: 1000;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        border-bottom: 1px solid black;
+    }
+    #logo-container, #right-icons, #side-icon-container {
+        display: flex;
+        align-items: center;
+    }
+    #logo-container {
+    
+        justify-content: center;
+    }
+    #side-icon {
+        height: 52px;
+    }
+    #logo {    
+    width: 163px;
+    height: 86px;
+    margin-left: 165px;
+    }
+    #right-icons img {
+        height: 45px;
+    }
+    #last-img {
+        padding-right: 20px;
+    }
+    #banner img {
+        position: relative;
+        height: 611px;
+        width: 100%;
+    }
+    #banner h1 {
+        position: absolute;
+        top: 550px;
+        left: 330px;
+        font-size: 22px;
+        opacity: 1;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        z-index: 3;
+    }
+    #black {
+        z-index: 1;
+        position: absolute;
+        top: 86px;
+        height: 611px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .shop-now a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    .shop-now {
+        position: absolute;
+        width: 180px;
+        height: 46px;
+        top: 607px;
+        left: 578px;
+        background-color: black;
+        border: 0px;
+        z-index: 100;
+    }
+    #pictures{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 70px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .pic{
+        margin-top: 20px;
+        width: 584px;
+        height: 880px;
+        }
+.heading{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 1469px;
+}
+#image-1 h1{
+    left: 222px;
+}
+#image-2 h1{
+    left:855px;
+}
+#image-3 h1{
+    top: 2361px;
+    left: 222px;
+}
+#image-4 h1{
+    top: 2361px;
+    left:855px;
+}
+#image-1 button{
+    top: 1544px;
+    left: 258px;
+    background-color: white;
+}
+#image-1 button a{
+    color: black;
+}
+#image-2 button{
+    top: 1544px;
+    left:855px;
+    background-color: white;
+}
+#image-2 button a{
+    color: black;
+}
+#image-3 button{
+    top: 2440px;
+    left: 222px;
+    background-color: white;
+}
+#image-3 button a{
+    color: black;
+}
+#image-4 button{
+    top: 2440px;
+    left:855px;
+    background-color: white;
+}
+#image-4 button a{
+    color: black;
+}
+
+#shop{
+    margin: 100px;
+}
+#heading-1{
+    font-size: 30px;
+}
+.content{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shopping{
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    left: 546px;
+    font-size: 40px;
+}
+#big-small-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+#big-container img{
+    width: 500px;
+    height: 700px;
+    margin-top: 130px;
+    margin-right: 40px;
+}
+#small-container img{
+    width: 315px;
+    height: 452px;
+    margin-top: 98px;
+}
+#product-name{
+    font-size: 21px;
+}
+#product-number{
+    margin-left: 130px;
+    font-size: 21px;
+    padding: 0px;
+    position: relative;
+    top: -17px;
+}
+#button button{
+    position: relative;
+    top: 0px;
+    left: 73px;
+}
+#inspired-container img{
+    width: 385px;
+    height: 588px;
+    margin-left: 13px;
+}
+#inspired-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-right: 20px;
+    margin-bottom: 42px;
+}
+#inspire-1{
+    position: relative;
+    top: -99px;
+    left: 112px;
+    background-color: white;
+}
+#inspire-2{
+    position: relative;
+    top: -99px;
+    left: 135px;
+    background-color: white;
+}
+#inspire-1 a{
+    color: black;
+}
+.inspire-1-container{
+    margin: 0px;
+    width: 385px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+#inspire-2{
+    position: relative;
+    top: -99px;
+    left: 135px;
+    background-color: white;
+}
+#inspire-2 a{
+    color: black;
+}
+#subscribe{
+    margin-top: 100px;
+    margin-left: 522px;
+}
+#email{
+    width: 303px;
+}
+textarea{
+    position: relative;
+    width: 257px;
+    top: 25px;
+}
+textarea::placeholder{
+    font-size: 20px;
+}
+#sub-button{
+    position: relative;
+    top: 25px;
+    left: 0px;
+    margin-left:30px;
+    width: 200px;
+    height: 35px;
+}
+#subscribe-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+footer{
+    margin-top: 116px;
+    margin-left: 40px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-heading{
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.footer-p{
+    margin-bottom: 20px;
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    margin-left: -9px;
+    margin-top: 30px;
+    margin-bottom: 29px;
+}
+#facebook{
+    margin-left: -9px;
+    margin-top: 30px;
+}
+#Instagram{
+    margin-left: 26px;
+}
+#footer-text{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+#red{
+    color: red;
+}

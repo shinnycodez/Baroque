@@ -1,0 +1,258 @@
+#container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+}
+#navbar{
+    position: relative;
+}
+#left {
+    display: flex;
+    flex-direction: column;
+    height: 1880px;
+    background-color: white;
+    position: relative;
+    overflow: auto;
+}
+body{
+    background-color: rgba(204, 204, 204, 0.35);
+}
+#right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+ 
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    right: 0;
+    overflow: auto;
+}
+#Contact{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 27px;
+}
+#login{
+    color: black;
+}
+#login p{
+    color: black;
+    position: absolute;
+    top: 90px;
+    left: 92%;
+    text-decoration: underline;
+    
+}
+#email{
+    margin-left: 50px;
+    width: 88%;
+    margin-top: -25px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+
+}
+.text-area{
+    margin-left: 50px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    width: 88%;
+}
+.text-area::placeholder{
+    padding: 9px;
+    padding: 9px;
+    font-size: 15px;
+}
+#check{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+#international{
+    height: 130px;
+    background-color:rgb(204, 204, 204,0.35);
+    width: 89%;
+    margin-left: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#international h1{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+#international p{
+    margin-left: 50px;
+}
+#international a p{
+    color: black;
+    text-decoration: underline;
+}
+#Delivery{
+    margin-top: 28px;
+    margin-left: 50px;
+    font-size: 27px;
+    
+}
+.country{
+    margin-top: 20px;
+}
+#country{
+    width: 88%;
+}
+#first-name{
+    width: 42.5%;
+}
+#last-name{
+    margin-left: 7px;
+    width: 42.5%;
+}
+#Adress{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#city{
+    width: 42.5%;
+}
+#code{
+    margin-left: 7px;
+    width: 42.5%;
+}
+#payment{
+    margin-top: -2px;
+    margin-left: 50px;
+}
+#method{
+    border: 1px solid black;
+display: flex;
+justify-content: center;
+flex-direction: column;
+height: 70px;
+}
+#card{
+    margin-right: 170px;
+    padding-bottom: 10px;
+}
+#image img{
+    margin-top: 3px;
+}
+#pay{
+    background-color: black;
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    border-bottom: 2px solid #ccc;
+}
+#pay a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 800;
+}
+#line{
+    border-bottom: 1px solid #ccc;
+    height: 1px;
+}
+#links{
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    height: 30px;
+}
+#links a{
+    color: black;
+    text-decoration: underline;
+}
+#right{
+    display: flex;
+    flex-direction: column;
+}
+#product{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 50px;
+    width: 88%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+#image{
+    background-color:rgb(204, 204, 204,0.4);
+    height: 80px;
+    width: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#image img{
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 80px;
+    width: 50px;
+}
+#quantity{
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -13px;
+    left: 2px;
+}
+#quantity p{
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+}
+#details{
+    font-size: 15px;
+}
+#name{
+    font-weight: 700;
+}
+#price{
+    margin-top: 26px;
+}
+#discount{
+    background-color: transparent;
+    width: 67%;
+}
+#apply{
+    height: 40px;
+    width: 15%;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+#apply a{
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+}
+.total{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 88%;
+    justify-content: space-between;
+}
+#shipping{
+    margin-top: -20px;
+}
+#grand-total{
+    margin-top: -20px;
+    font-weight: 800;
+    font-size: 18px;
+}

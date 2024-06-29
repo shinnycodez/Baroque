@@ -1,0 +1,195 @@
+#container {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#small-images {
+    display: flex;
+    flex-direction: column;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 30px; /* Adjust as needed */
+    align-self: flex-start; /* Ensure it starts at the top */
+}
+
+#small-images img {
+    height: 108px;
+    width: 70px;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+#big-images {
+    margin-left: 50px;
+    overflow-y: auto; /* Ensure big images can scroll if they exceed container height */
+    width: 554px;
+}
+
+#big-images img {
+    width: 554px;
+    height: 801px;
+    margin-bottom: 20px;
+}
+
+#product-details {
+    margin-left: 60px;
+    margin-right: 20px;
+    width: 450px;
+    height: fit-content; /* Change from fixed height to fit-content */
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 30px; /* Adjust as needed */
+}
+
+#product-details p {
+    color: black;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.price {
+    font-size: 27px;
+}
+
+.type button {
+    width: 150px;
+    height: 46px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 100;
+    margin-left: 10px;
+}
+
+.type button a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+#stitched {
+    opacity: 0.5;
+}
+
+.size {
+    margin-top: 20px;
+}
+
+.shop {
+    width: 423px;
+    height: 46px;
+    background-color: black;
+    border: 0px;
+    margin-top: 40px;
+    margin-left: 12px;
+}
+
+.shop a {
+    color: white;
+    text-decoration: none;
+}
+
+#buy {
+    margin-top: 20px;
+}
+
+.text {
+    height: 50px;
+    border-top: 2px solid #ccc;
+    margin-left: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+#description {
+    margin-top: 30px;
+}
+#related-products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 659px;
+    column-gap: 20px;
+    text-align: center;
+    
+}
+#heading p{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.product{
+
+    height: 560px;
+    width: 280px;
+}
+#heading{
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+#product-1{
+    margin-left: 50px;
+}
+.pic{
+    height: 401px;
+    width: 280px;
+
+}
+#pic-1{
+    background-image: url(https://baroque.pk/cdn/shop/files/208.jpg?v=1716553384&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+    margin-top: 0px;
+}
+#pic-1:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/210.jpg?v=1716553387&width=1000);
+    cursor: pointer;
+
+}
+#pic-2{
+    background-image: url(https://baroque.pk/cdn/shop/files/237.jpg?v=1709035769&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+    margin-top: 0px;
+}
+#pic-2:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/241_5eaed8c5-561e-4f3f-af6e-e323b69934b7.jpg?v=1709035769&width=1000);
+    cursor: pointer;
+
+}
+#pic-3{
+    background-image: url(https://baroque.pk/cdn/shop/files/155_f3251aff-d5b0-4d99-9904-8ff400317d8d.jpg?v=1715239387&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+    margin-top: 0px;
+}
+#pic-3:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/158_77d83529-b0fe-4451-aed5-294c5afd9481.jpg?v=1715239392&width=1000);
+    cursor: pointer;
+
+}
+#pic-4{
+    background-image: url(https://baroque.pk/cdn/shop/files/100_804617d1-782c-4883-91b2-f82331aa554b.jpg?v=1717066541&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+    margin-top: 0px;
+}
+#pic-4:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/95_9495abce-bad9-4bed-87c3-2d527e28c7a5.jpg?v=1717066541&width=1000);
+    cursor: pointer;
+
+}
+.price1{
+    color: #ccc;
+}
+.season{
+    font-size: 12px;
+}

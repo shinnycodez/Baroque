@@ -1,0 +1,100 @@
+#image1{
+    background-image: url(https://baroque.pk/cdn/shop/files/18_7150c445-e7ad-402c-8749-c8eac350ee42.jpg?v=1716884889&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image1:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/20_d61ee93e-6050-46b7-a09c-6a80512a5385.jpg?v=1716884889&width=1000);
+    cursor: pointer;
+}
+#image2{
+    background-image: url(https://baroque.pk/cdn/shop/files/102_1b2383ff-16fd-4b40-90f2-d65f5ced11e2.jpg?v=1717753687&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image2:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/107_0d4cc715-e4b6-42ea-bd89-adf8451727dd.jpg?v=1717753700&width=1000);
+    cursor: pointer;
+}
+#image3{
+    background-image: url(https://baroque.pk/cdn/shop/files/01_cf1acfcb-bd2a-47a6-b40f-90e2b502d5e1.jpg?v=1716969148&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image3:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/03_92087a8d-70e3-40a1-ab0a-30bf19c6af4f.jpg?v=1716969161&width=1000);
+    cursor: pointer;
+}
+#image4{
+    background-image: url(https://baroque.pk/cdn/shop/files/24_ef025673-6e67-47a9-b96f-bb6735ce1fe4.jpg?v=1718269166&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image4:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/27_da17e94b-9f8f-440d-9bdd-df09b2f0d6a7.jpg?v=1718269166&width=1000);
+    cursor: pointer;
+}
+#image5{
+    background-image: url(https://baroque.pk/cdn/shop/files/09_705de2d8-d7b9-46b1-8d4b-4c89044a4009.jpg?v=1716884941&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image5:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/08_f08eed36-7d67-4f6c-98a4-0edfe845ad5c.jpg?v=1716884941&width=1000);
+    cursor: pointer;
+}
+#image6{
+    background-image: url(https://baroque.pk/cdn/shop/files/01_01d71e9d-a49d-4dc0-9134-b32c1ca10ae2.jpg?v=1718269094&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image6:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/03_3246c110-bfbe-42fc-9cf4-bcc78c59df47.jpg?v=1718269105&width=1000);
+    cursor: pointer;
+}
+#image7{
+    background-image: url(https://baroque.pk/cdn/shop/files/10_6f1d585c-f111-4480-82ed-7985416ee64d.jpg?v=1717577445&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image7:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/11_87677ec9-d302-4675-9fc4-16cf94df1161.jpg?v=1717577446&width=1000);
+    cursor: pointer;
+}
+#image8{
+    background-image: url(https://baroque.pk/cdn/shop/files/158_a8e014f7-1bf5-45c8-891c-c7067bb59f18.jpg?v=1718269543&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image8:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/159_6937e0d8-1bcd-4441-b642-5e98e89b5a37.jpg?v=1718269543&width=1000);
+    cursor: pointer;
+}
+#image9{
+    background-image: url(https://baroque.pk/cdn/shop/files/18_71a665c0-fc28-4166-9de7-bdf8093dc7f0.jpg?v=1717755357&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image9:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/21_ece2b006-abeb-4da4-b294-a6073f7913bf.jpg?v=1717755367&width=1000);
+    cursor: pointer;
+}
+#image10{
+    background-image: url(https://baroque.pk/cdn/shop/files/107.jpg?v=1711009823&width=1000);
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    transition: background-image 0.3s ease-in-out; /* Smooth transition */;
+}
+#image10:hover{
+    background-image: url(https://baroque.pk/cdn/shop/files/108.jpg?v=1711009823&width=1000);
+    cursor: pointer;
+}
